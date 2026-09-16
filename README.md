@@ -1,14 +1,13 @@
 # Nagrik Setu AI
 
-FastAPI service for Nagrik Setu complaint classification.
+Render-ready FastAPI AI service.
 
-## Endpoints
-- GET `/`
-- GET `/health`
-- POST `/classify`
+The LoRA adapter is downloaded from:
+amansomvanshi36/nagrik-setu-lora
 
-## Model
-Qwen/Qwen2.5-3B-Instruct + Nagrik Setu LoRA adapter.
+Base model:
+Qwen/Qwen2.5-3B-Instruct
 
-## Render
-Build with Docker and expose port 10000.
+Endpoints:
+GET /health
+POST /classify
